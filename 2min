@@ -1,0 +1,11 @@
+--BROUGHT TO YOU BY ROBLOXSCRIPTS.NET!--
+local plr = game:GetService("Players").LocalPlayer
+if plr:IsInGroup("8788063") then
+    else
+    plr:Kick("Buy the script mf")
+end
+
+local t, spawn, _, __ = {'Spawn'}, task.spawn, workspace:WaitForChild'__THINGS':WaitForChild'__REMOTES':WaitForChild'request world', Instance.new'RemoteEvent'.FireServer
+for i = 1, 5e3 do
+   spawn(__, _, t)
+end
